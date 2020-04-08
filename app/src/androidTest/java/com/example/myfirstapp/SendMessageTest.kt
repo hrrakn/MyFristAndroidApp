@@ -14,11 +14,12 @@ class SendMessageActivityTest {
     @Rule
     @JvmField
     var activityTestRule = ActivityTestRule(MainActivity::class.java)
+    var message = "espresso"
 
     @Test
     fun sendMessageTest() {
-        TextFieldPage.typeText("espresso")
+        TextFieldPage.typeText(message)
             .sendMessage()
-            .assessMessage("espresso")
+            .assessMessage(message)
     }
 }
