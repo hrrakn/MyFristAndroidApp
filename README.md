@@ -12,3 +12,9 @@ Android StudioでUIテストを実装するため
 [Espressoの知識ゼロでも書ける！Android UIテストはじめの一歩](https://dena.github.io/codelabs/android-ui-tests-basic/#0)
 
 ## 機能
+1. 「Enter a message」に文字を入力
+2. 「Send」を押す
+3. 遷移先画面に入力した文字が表示される
+
+<img width="457" alt="スクリーンショット 2020-04-08 10 32 38" src="https://user-images.githubusercontent.com/51257149/78735110-e8681280-7984-11ea-8941-ad1eb25b4a14.png">
+<img width="457" alt="スクリーンショット 2020-04-08 10 32 54" src="https://user-images.githubusercontent.com/51257149/78735115-e9993f80-7984-11ea-8545-ad2fe940571b.png">
